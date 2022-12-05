@@ -1,0 +1,5 @@
+apache:x:48:48:Apache:/usr/share/httpd:/sbin/nologin
+tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin
+bukky:x:1004:1005::/home/bukky:/bin/bash
+adeleke:x:1005:1006::/home/adeleke:/bin/bash
+asiwaju:x:1006:1007::/home/asiwaju:/bin/bash
