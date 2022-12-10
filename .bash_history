@@ -521,3 +521,16 @@ git branch
 git branch stage
 git branch
 ls
+git status
+git log
+git show 6392f7df0
+git remote
+ls
+git fetch
+git fetch -v
+git status
+git add .
+git status
+git commit -m "sync files from maven server"
+git push class30
+sudo yum update
