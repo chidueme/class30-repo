@@ -534,3 +534,81 @@ git status
 git commit -m "sync files from maven server"
 git push class30
 sudo yum update
+git log
+git branch
+git branch dev
+git checkout dev
+git commit -m ".bash_history save"
+git commit-a -m ".bash_history save"
+git commit -a -m ".bash_history save"
+git checkout dev
+git status
+git diff
+git log
+git diff dev
+git checkout master
+git diff dev
+git merge dev -m "reviewed and approved"
+git diff dev
+git checkout dev
+git branch
+vi deploy.sh
+cat deploy.sh
+git status
+git commit -a -m "deployment4"
+git add
+git add .
+git status
+git commit -m "deployment4"
+git git --config --global user.name "Chris"
+git --config --global user.name "Chris"
+git status
+git commit -m "deployment4"
+git config user,name "Chris"
+git config user.name "Chris"
+git config user.email "christopherchidueme@yahoo.com"
+git commit -m "deployment4"
+git checkout master
+git diff
+git diff dev
+git merge dev
+git diff dev
+git status
+vi .viminfo
+ vi deplo.sh
+vi deploy.sh
+vi .viminfo
+git status
+git commit -a -m "conflict resolved"
+git log
+git diff
+git diff dev
+git status
+clear
+ls /sshd_config
+sudo vi sshd_config
+ls
+sudo vi /sshd_config
+ls
+cd /
+ls
+cd bin
+ls
+cd -
+ls
+cat /etc/hosts
+grep sshd
+grep / sshd
+grep / sshd_config
+grep / /sshd_config
+cd etc
+ls
+cd ssh
+ls
+cd sshd_config
+less sshd_config
+sudo less sshd_config
+vi sshd_config
+sudo vi sshd_config
+cd ~
+exit

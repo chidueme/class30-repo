@@ -14,6 +14,8 @@
 ~Msle0~/\<scp\>
 
 # Command Line History (newest to oldest):
+:q!
+|2,0,1670721424,,"q!"
 :q
 |2,0,1668398895,,"q"
 :wq
@@ -24,8 +26,6 @@
 |2,0,1667768041,,"w1"
 :w
 |2,0,1666311347,,"w"
-:q!
-|2,0,1666311270,,"q!"
 
 # Search String History (newest to oldest):
 ? \<scp\>
@@ -46,20 +46,20 @@
 |3,0,36,0,1,0,1669601109,"."
 
 # File marks:
-'0  457  0  ~/.viminfo
-|4,48,457,0,1670707470,"~/.viminfo"
-'1  1  39  ~/class30repo-pat.txt
-|4,49,1,39,1670208240,"~/class30repo-pat.txt"
-'2  14  6  ~/fileMGT.sh
-|4,50,14,6,1670117840,"~/fileMGT.sh"
+'0  1  0  /etc/ssh/sshd_config
+|4,48,1,0,1670721424,"/etc/ssh/sshd_config"
+'1  457  0  ~/.viminfo
+|4,49,457,0,1670707470,"~/.viminfo"
+'2  1  39  ~/class30repo-pat.txt
+|4,50,1,39,1670208240,"~/class30repo-pat.txt"
 '3  14  6  ~/fileMGT.sh
-|4,51,14,6,1670117670,"~/fileMGT.sh"
+|4,51,14,6,1670117840,"~/fileMGT.sh"
 '4  14  6  ~/fileMGT.sh
-|4,52,14,6,1670117640,"~/fileMGT.sh"
+|4,52,14,6,1670117670,"~/fileMGT.sh"
 '5  14  6  ~/fileMGT.sh
 |4,53,14,6,1670117640,"~/fileMGT.sh"
 '6  14  6  ~/fileMGT.sh
-|4,54,14,6,1670117559,"~/fileMGT.sh"
+|4,54,14,6,1670117640,"~/fileMGT.sh"
 '7  14  6  ~/fileMGT.sh
 |4,55,14,6,1670117559,"~/fileMGT.sh"
 '8  14  6  ~/fileMGT.sh
@@ -68,10 +68,18 @@
 |4,57,14,6,1670117559,"~/fileMGT.sh"
 
 # Jumplist (newest first):
+-'  1  0  /etc/ssh/sshd_config
+|4,39,1,0,1670721424,"/etc/ssh/sshd_config"
+-'  457  0  ~/.viminfo
+|4,39,457,0,1670707470,"~/.viminfo"
 -'  457  0  ~/.viminfo
 |4,39,457,0,1670707470,"~/.viminfo"
 -'  1  0  ~/.viminfo
 |4,39,1,0,1670707356,"~/.viminfo"
+-'  1  0  ~/.viminfo
+|4,39,1,0,1670707356,"~/.viminfo"
+-'  1  39  ~/class30repo-pat.txt
+|4,39,1,39,1670208240,"~/class30repo-pat.txt"
 -'  1  39  ~/class30repo-pat.txt
 |4,39,1,39,1670208240,"~/class30repo-pat.txt"
 -'  14  6  ~/fileMGT.sh
@@ -79,9 +87,21 @@
 -'  14  6  ~/fileMGT.sh
 |4,39,14,6,1670117840,"~/fileMGT.sh"
 -'  14  6  ~/fileMGT.sh
+|4,39,14,6,1670117840,"~/fileMGT.sh"
+-'  14  6  ~/fileMGT.sh
+|4,39,14,6,1670117840,"~/fileMGT.sh"
+-'  14  6  ~/fileMGT.sh
 |4,39,14,6,1670117670,"~/fileMGT.sh"
 -'  14  6  ~/fileMGT.sh
 |4,39,14,6,1670117670,"~/fileMGT.sh"
+-'  14  6  ~/fileMGT.sh
+|4,39,14,6,1670117670,"~/fileMGT.sh"
+-'  14  6  ~/fileMGT.sh
+|4,39,14,6,1670117670,"~/fileMGT.sh"
+-'  14  6  ~/fileMGT.sh
+|4,39,14,6,1670117640,"~/fileMGT.sh"
+-'  14  6  ~/fileMGT.sh
+|4,39,14,6,1670117640,"~/fileMGT.sh"
 -'  14  6  ~/fileMGT.sh
 |4,39,14,6,1670117640,"~/fileMGT.sh"
 -'  14  6  ~/fileMGT.sh
@@ -91,9 +111,21 @@
 -'  14  6  ~/fileMGT.sh
 |4,39,14,6,1670117559,"~/fileMGT.sh"
 -'  14  6  ~/fileMGT.sh
+|4,39,14,6,1670117559,"~/fileMGT.sh"
+-'  14  6  ~/fileMGT.sh
+|4,39,14,6,1670117559,"~/fileMGT.sh"
+-'  14  6  ~/fileMGT.sh
 |4,39,14,6,1670117440,"~/fileMGT.sh"
 -'  14  6  ~/fileMGT.sh
 |4,39,14,6,1670117440,"~/fileMGT.sh"
+-'  14  6  ~/fileMGT.sh
+|4,39,14,6,1670117440,"~/fileMGT.sh"
+-'  14  6  ~/fileMGT.sh
+|4,39,14,6,1670117440,"~/fileMGT.sh"
+-'  14  6  ~/fileMGT.sh
+|4,39,14,6,1670117405,"~/fileMGT.sh"
+-'  14  6  ~/fileMGT.sh
+|4,39,14,6,1670117405,"~/fileMGT.sh"
 -'  14  6  ~/fileMGT.sh
 |4,39,14,6,1670117405,"~/fileMGT.sh"
 -'  14  6  ~/fileMGT.sh
@@ -123,6 +155,34 @@
 -'  1  0  ~/fileMGT.sh
 |4,39,1,0,1670117387,"~/fileMGT.sh"
 -'  1  0  ~/fileMGT.sh
+|4,39,1,0,1670117387,"~/fileMGT.sh"
+-'  1  0  ~/fileMGT.sh
+|4,39,1,0,1670117387,"~/fileMGT.sh"
+-'  1  0  ~/fileMGT.sh
+|4,39,1,0,1670117387,"~/fileMGT.sh"
+-'  1  0  ~/fileMGT.sh
+|4,39,1,0,1670117387,"~/fileMGT.sh"
+-'  1  0  ~/fileMGT.sh
+|4,39,1,0,1670117387,"~/fileMGT.sh"
+-'  1  0  ~/fileMGT.sh
+|4,39,1,0,1670117387,"~/fileMGT.sh"
+-'  1  0  ~/fileMGT.sh
+|4,39,1,0,1670117387,"~/fileMGT.sh"
+-'  1  0  ~/fileMGT.sh
+|4,39,1,0,1670117387,"~/fileMGT.sh"
+-'  1  0  ~/fileMGT.sh
+|4,39,1,0,1670117387,"~/fileMGT.sh"
+-'  1  0  ~/fileMGT.sh
+|4,39,1,0,1670117387,"~/fileMGT.sh"
+-'  1  0  ~/fileMGT.sh
+|4,39,1,0,1670117387,"~/fileMGT.sh"
+-'  1  0  ~/fileMGT.sh
+|4,39,1,0,1670117387,"~/fileMGT.sh"
+-'  1  0  ~/fileMGT.sh
+|4,39,1,0,1670117336,"~/fileMGT.sh"
+-'  1  0  ~/fileMGT.sh
+|4,39,1,0,1670117336,"~/fileMGT.sh"
+-'  1  0  ~/fileMGT.sh
 |4,39,1,0,1670117336,"~/fileMGT.sh"
 -'  1  0  ~/fileMGT.sh
 |4,39,1,0,1670117336,"~/fileMGT.sh"
@@ -131,77 +191,17 @@
 -'  1  0  ~/fileMGT.sh
 |4,39,1,0,1670117290,"~/fileMGT.sh"
 -'  1  0  ~/fileMGT.sh
+|4,39,1,0,1670117290,"~/fileMGT.sh"
+-'  1  0  ~/fileMGT.sh
+|4,39,1,0,1670117290,"~/fileMGT.sh"
+-'  1  0  ~/fileMGT.sh
 |4,39,1,0,1670117267,"~/fileMGT.sh"
 -'  1  0  ~/fileMGT.sh
 |4,39,1,0,1670117267,"~/fileMGT.sh"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
--'  12  0  ~/fileMGT
-|4,39,12,0,1670117192,"~/fileMGT"
+-'  1  0  ~/fileMGT.sh
+|4,39,1,0,1670117267,"~/fileMGT.sh"
+-'  1  0  ~/fileMGT.sh
+|4,39,1,0,1670117267,"~/fileMGT.sh"
 -'  12  0  ~/fileMGT
 |4,39,12,0,1670117192,"~/fileMGT"
 -'  12  0  ~/fileMGT
